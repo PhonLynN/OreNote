@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标入口（API 26+）。工程 minSdk = 36，桌面只会用到这一个入口，
+  因此不需要再放各密度的 PNG 位图。
+
+  三层：背景（品牌蓝）/ 前景（五个方块）/ 单色（Android 13+ 主题图标）。
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+</adaptive-icon>

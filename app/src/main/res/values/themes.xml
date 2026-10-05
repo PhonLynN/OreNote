@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Compose 应用只需要一个无 ActionBar 的宿主主题；真正的配色由 Compose 的
+      OrePlanTheme 负责。这里用系统 Material 主题是为了不引入 material components 依赖。
+    -->
+    <style name="Theme.OrePlan" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ore_window_background</item>
+    </style>
+</resources>

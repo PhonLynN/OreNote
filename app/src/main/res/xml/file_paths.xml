@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  附件的外部打开路径白名单。
+
+  只开放 `files/attachments/` 这一棵子树：FileProvider 的 path 是「能授权出去的范围」，
+  写成整个 files 目录等于把应用的全部私有文件都放进了可外发清单。
+-->
+<paths>
+    <files-path
+        name="attachments"
+        path="attachments/" />
+
+    <!-- 导出长图的临时目录：分享时要把导出的 PNG 授权给别的应用看，
+         所以必须出现在白名单里（否则 FileProvider.getUriForFile 直接抛异常）。
+         只开放 files/exports/ 这一棵子树，且导出文件会被下一次导出覆盖。 -->
+    <files-path
+        name="exports"
+        path="exports/" />
+</paths>

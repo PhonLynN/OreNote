@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  注意：自适应图标的背景已经换成矢量渐变（drawable/ic_launcher_background.xml），
+  这里不再需要 ic_launcher_background 这个颜色值。
+-->
+<resources>
+    <color name="ore_window_background">#FFF4F6F4</color>
+</resources>

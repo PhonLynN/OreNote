@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  OrePlan 图标：五个有棱角的方块（3 上 2 下、左对齐），单色品牌蓝底。
+  108×108 与自适应图标画布一致：中央 72×72 是可见区，图形落在直径 66 的安全圆内。
+  本文件由 scripts/make_icon.py 生成。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <rect width="108" height="108" fill="#2f6bea" />
+  <rect x="27.1" y="36.8" width="15" height="15" fill="#FFF" />
+  <rect x="46.5" y="36.8" width="15" height="15" fill="#FFF" />
+  <rect x="65.9" y="36.8" width="15" height="15" fill="#FFF" />
+  <rect x="27.1" y="56.2" width="15" height="15" fill="#FFF" />
+  <rect x="46.5" y="56.2" width="15" height="15" fill="#FFF" />
+</svg>

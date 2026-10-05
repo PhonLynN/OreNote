@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  单色图标（Android 13+ 主题化图标）：系统只取 alpha 当蒙版，颜色不生效。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52.5,31 L33,54 L52.5,77 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M55.5,31 L75,54 L55.5,77 Z" />
+</vector>

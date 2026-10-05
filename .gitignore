@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.kotlin
+# 打包产物（APK 每次构建都能重新生成，不放仓库）
+/dist
+
+# 模拟器验证产物（截图/抽帧，随时可重生成，不入库）
+/verification/
+
+# Python 字节码缓存（随时可重生成，不入库）
+__pycache__/
+*.pyc
+
+# 临时提交说明文件（Agent 用，勿入库）
+_msg.txt
+_commit_msg.txt
